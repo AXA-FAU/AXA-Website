@@ -5568,9 +5568,9 @@
                 const config = await response.json();
                 qrConfig = config.qrCode || {};
                 
-                // Set default values if not provided
+                // Set default values if not provided - FORCE axa-fau.org
                 qrConfig = {
-                    data: qrConfig.data || 'https://axa-fau.org',
+                    data: 'https://axa-fau.org',
                     width: qrConfig.width || 256,
                     height: qrConfig.height || 256,
                     margin: qrConfig.margin || 12,
@@ -5579,22 +5579,22 @@
                         transparent: qrConfig.background?.transparent || false
                     },
                     dots: {
-                        type: qrConfig.dots?.type || 'rounded',
-                        color: qrConfig.dots?.color || '#00008f'
+                        type: qrConfig.dots?.type || 'square',
+                        color: qrConfig.dots?.color || '#000000'
                     },
                     cornersSquare: {
                         type: qrConfig.cornersSquare?.type || 'square',
-                        color: qrConfig.cornersSquare?.color || '#00008f'
+                        color: qrConfig.cornersSquare?.color || '#000000'
                     },
                     cornersDot: {
-                        type: qrConfig.cornersDot?.type || 'dot',
-                        color: qrConfig.cornersDot?.color || '#00008f'
+                        type: qrConfig.cornersDot?.type || 'square',
+                        color: qrConfig.cornersDot?.color || '#000000'
                     },
                     logo: {
-                        enabled: qrConfig.logo?.enabled || false,
-                        src: qrConfig.logo?.src || '',
-                        size: qrConfig.logo?.size || 0.25,
-                        margin: qrConfig.logo?.margin || 6
+                        enabled: false,
+                        src: '',
+                        size: 0.25,
+                        margin: 6
                     }
                 };
                 
@@ -5603,16 +5603,16 @@
                 }
             } catch (error) {
                 console.error('Error loading QR configuration:', error);
-                // Use fallback configuration
+                // Use fallback configuration - FORCE axa-fau.org with default styling
                 qrConfig = {
                     data: 'https://axa-fau.org',
                     width: 256,
                     height: 256,
                     margin: 12,
                     background: { color: '#ffffff', transparent: false },
-                    dots: { type: 'rounded', color: '#00008f' },
-                    cornersSquare: { type: 'square', color: '#00008f' },
-                    cornersDot: { type: 'dot', color: '#00008f' },
+                    dots: { type: 'square', color: '#000000' },
+                    cornersSquare: { type: 'square', color: '#000000' },
+                    cornersDot: { type: 'square', color: '#000000' },
                     logo: { enabled: false, src: '', size: 0.25, margin: 6 }
                 };
             }
@@ -5627,9 +5627,9 @@
                     height: 256,
                     margin: 12,
                     background: { color: '#ffffff', transparent: false },
-                    dots: { type: 'rounded', color: '#00008f' },
-                    cornersSquare: { type: 'square', color: '#00008f' },
-                    cornersDot: { type: 'dot', color: '#00008f' },
+                    dots: { type: 'square', color: '#000000' },
+                    cornersSquare: { type: 'square', color: '#000000' },
+                    cornersDot: { type: 'square', color: '#000000' },
                     logo: { enabled: false, src: '', size: 0.25, margin: 6 }
                 };
             }
@@ -5643,45 +5643,34 @@
             qrContainer.innerHTML = ''; // Clear previous QR code
             
             try {
-                // Create QR code with dynamic styling
+                // Create QR code with FORCED axa-fau.org and default styling
                 const qrOptions = {
-                    width: qrConfig.width || 256,
-                    height: qrConfig.height || 256,
-                    data: qrConfig.data || 'https://axa-fau.org',
-                    margin: qrConfig.margin || 12,
+                    width: 256,
+                    height: 256,
+                    data: 'https://axa-fau.org', // FORCE this URL
+                    margin: 12,
                     type: 'svg',
                     backgroundOptions: {
-                        color: qrConfig.background?.transparent ? 'transparent' : (qrConfig.background?.color || '#ffffff')
+                        color: '#ffffff'
                     },
                     dotsOptions: {
-                        type: qrConfig.dots?.type || 'rounded',
-                        color: qrConfig.dots?.color || '#00008f'
+                        type: 'square',
+                        color: '#000000'
                     },
                     cornersSquareOptions: {
-                        type: qrConfig.cornersSquare?.type || 'square',
-                        color: qrConfig.cornersSquare?.color || '#00008f'
+                        type: 'square',
+                        color: '#000000'
                     },
                     cornersDotOptions: {
-                        type: qrConfig.cornersDot?.type || 'dot',
-                        color: qrConfig.cornersDot?.color || '#00008f'
+                        type: 'square',
+                        color: '#000000'
                     }
                 };
-                
-                // Only add image options if logo is enabled and has a valid source
-                if (qrConfig.logo?.enabled && qrConfig.logo?.src) {
-                    qrOptions.imageOptions = {
-                        crossOrigin: 'anonymous',
-                        margin: qrConfig.logo.margin || 6,
-                        imageSize: qrConfig.logo.size || 0.25,
-                        hideBackgroundDots: false
-                    };
-                    qrOptions.image = qrConfig.logo.src;
-                }
                 
                 qrCode = new QRCodeStyling(qrOptions);
                 qrCode.append(qrContainer);
                 
-                console.log('QR code created successfully');
+                console.log('QR code created successfully with URL:', qrOptions.data);
             } catch (error) {
                 console.error('Error creating QR code:', error);
                 // Fallback: create a simple text message
