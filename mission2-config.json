@@ -1,0 +1,42 @@
+{
+  "title": "MISSION 2",
+  "description": "Execute a test flight for FAU's first CubeSat with communications and ground station capabilities. This innovative mission represents a significant advancement in small satellite technology, bringing together three specialized teams for the first time: AXA, Mechanical SD-23 Team, and Computer Science SD-23 Team. This collaborative effort achieved remarkable milestones including the smoothest launch yet and the first integration of a 360° camera system. Despite encountering technical challenges such as partial GPS failure, communication system issues, and loss of pressure leading to a premature 69,000 ft apogee, these experiences provided invaluable insights for future missions. Operating within a $3,800 budget, this mission demonstrated FAU's growing expertise in CubeSat development and multi-team collaboration in aerospace engineering.",
+  "team": [
+    {
+      "name": "Sky Rueff",
+      "role": "President",
+      "photo": "media/team/skyrueff.jpg"
+    },
+    {
+      "name": "Matthew Sirkin",
+      "role": "Vice President",
+      "photo": "media/team/matthewsirkin.jpg"
+    },
+    {
+      "name": "Daniel Levy",
+      "role": "Software Lead",
+      "photo": "media/team/daniellevy.jpg"
+    },
+    {
+      "name": "Kirthana Mutukuru",
+      "role": "Mechanical Lead",
+      "photo": "media/team/kirthanamutukuru.png"
+    },
+    {
+      "name": "Eyan Starkman",
+      "role": "Electrical Lead",
+      "photo": "media/team/eyanstarkman.jpg"
+    }
+  ],
+  "images": [
+    "media/placeholder.jpg",
+    "media/placeholder.jpg",
+    "media/placeholder.jpg"
+  ],
+  "sponsors": [
+    "media/logos/fau.png",
+    "media/placeholder.jpg",
+    "media/placeholder.jpg"
+  ]
+}
+

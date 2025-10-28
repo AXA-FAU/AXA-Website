@@ -1,0 +1,224 @@
+{
+  "site": {
+    "title": "AXA",
+    "favicon": "media/logos/axa2.png",
+    "description": "Aerospace Experimental Association - Launching CubeSats into Orbit"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "missions": "Missions",
+    "join": "Join",
+    "support": "Support",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Join Our Mission to Launch a CubeSat into Orbit",
+    "description": "We are a dedicated aerospace experimental association committed to launching a CubeSat into orbit. Our team of passionate innovators is driven by a shared vision of exploring the cosmos and advancing the frontiers of space technology."
+  },
+  "about": {
+    "title": "About",
+    "content": "As humanity ventures beyond Earth to the Moon and Mars, feeding astronauts sustainably becomes crucial. Current food supply methods—launching provisions on demand—are costly and lack the nutritional diversity needed for long-term missions. Growing plants in space represents the logical next step toward rapid, local food production, though challenges such as microgravity, which disrupts convection and growth directionality, and cosmic radiation, which damages DNA, must be overcome. Existing space farming efforts on the ISS remain limited and dependent on human involvement. To advance this frontier, we are developing an autonomous CubeSat payload for plant farming research, building on previous experiments like NASA’s Veggie and Advanced Plant Habitat. By leveraging the power of CubeSat technology, our project aims to generate the critical data needed for high-yield, self-sustaining plant growth—ushering in a new era of innovative, compact, and cost-effective solutions for future space exploration."
+  },
+  "missions": {
+    "mission1": {
+      "title": "MISSION 1",
+      "subtitle": "2024 - HAB Autonomous Recovery System",
+      "backgroundImage": "media/missions/1/1-5.2.jpg"
+    },
+    "mission2": {
+      "title": "MISSION 2", 
+      "subtitle": "2024 - CubeSat Communications & Ground Station",
+      "backgroundImage": "media/missions/2/2-1.2.jpg"
+    },
+    "mission3": {
+      "title": "MISSION 3",
+      "subtitle": "2024 - HAB Autonomous Recovery System",
+      "backgroundImage": "media/missions/3/3-1.2.jpg"
+    },
+    "cta": "CLICK TO READ MORE",
+    "mobileCta": "Click to learn more"
+  },
+  "sponsors": {
+    "title": "OUR MISSIONS ARE POSSIBLE THANKS TO OUR SPONSORS:",
+    "fallbackMessage": "No sponsor images found"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Reach out and we'll get back to you as soon as possible.",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email", 
+        "placeholder": "you@example.com"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "(555) 867-5309"
+      },
+      "company": {
+        "label": "Company/Organization",
+        "placeholder": "Your company or organization"
+      },
+      "reason": {
+        "label": "Reason for Contact",
+        "placeholder": "Select a reason",
+        "options": [
+          "General Inquiry",
+          "Sponsorship", 
+          "Partnership",
+          "Join the Team",
+          "Media"
+        ]
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Type your message..."
+      },
+      "submit": "Send"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact Us",
+      "email": "axa.fau@outlook.com",
+      "phone": "1800-123-4567"
+    },
+    "address": {
+      "title": "Address",
+      "content": "1966-1988 Dade Ave<br>Boca Raton, FL 33431"
+    },
+    "socials": {
+      "title": "Socials"
+    },
+    "bottom": {
+      "copyright": "© 2025 AXA. All rights reserved.",
+      "designedBy": "Designed by",
+      "designerName": "Charles Russo",
+      "designerUrl": "https://charlierusso.dev/"
+    }
+  },
+  "missionDetail": {
+    "team": {
+      "title": "MEET THE TEAM"
+    },
+    "images": {
+      "title": "IMAGES",
+      "expandButton": "Click to see more photos"
+    },
+    "sponsors": {
+      "title": "SPONSORS"
+    },
+    "support": {
+      "button": "SUPPORT US"
+    }
+  },
+  "buttons": {
+    "back": "← BACK",
+    "support": "SUPPORT US"
+  },
+  "messages": {
+    "contactForm": "Sorry, this is under construction.",
+    "galleryExpansion": "Gallery expansion feature coming soon!",
+    "supportPage": "Thank you for your interest! Support page coming soon.",
+    "qrCode": "Scan to visit our website"
+  },
+  "settings": {
+    "showConsoleLogs": true,
+    "autoRefresh": true
+  },
+  "fontSizes": {
+    "navigation": {
+      "navLinks": "0.9rem",
+      "backButton": "0.9rem",
+      "backButtonIcon": "1.2rem"
+    },
+    "hero": {
+      "title": "2.53rem",
+      "description": "1.265rem"
+    },
+    "about": {
+      "title": "3rem",
+      "tagline": "0.75rem",
+      "subtitle": "1.8rem",
+      "content": "1rem"
+    },
+    "missions": {
+      "title": "clamp(3rem, 8vw, 6.8rem)",
+      "subtitle": "1.5rem",
+      "cta": "3rem",
+      "mobileTitle": "3.5rem",
+      "mobileSubtitle": "1.2rem",
+      "mobileCta": "1rem"
+    },
+    "sponsors": {
+      "title": "2.2rem"
+    },
+    "contact": {
+      "title": "2.6rem",
+      "subtitle": "1rem",
+      "formLabel": "0.85rem",
+      "formInput": "1rem"
+    },
+    "footer": {
+      "sectionTitle": "1.2rem",
+      "content": "0.9rem"
+    },
+    "missionDetail": {
+      "header": "4rem",
+      "description": "1.1rem",
+      "sectionTitle": "2.5rem",
+      "teamMemberName": "1.2rem",
+      "teamMemberRole": "0.95rem",
+      "supportButton": "1.5rem",
+      "galleryButton": "1.1rem"
+    },
+    "mobile": {
+      "heroTitle": "2rem",
+      "heroDescription": "1rem",
+      "missionTitle": "3.5rem",
+      "missionSubtitle": "1.2rem",
+      "missionCta": "1rem",
+      "slideshowTitle": "1.5rem",
+      "slideshowDescription": "0.9rem",
+      "missionDetailTitle": "2.5rem"
+    },
+    "lightbox": {
+      "closeButton": "4rem"
+    },
+    "qrCode": {
+      "description": "1rem"
+    }
+  },
+  "qrCode": {
+    "data": "https://axa-fau.com",
+    "width": 256,
+    "height": 256,
+    "margin": 12,
+    "background": {
+      "color": "#000000",
+      "transparent": false
+    },
+    "dots": {
+      "type": "dots",
+      "color": "#ffffff"
+    },
+    "cornersSquare": {
+      "type": "extra-rounded",
+      "color": "#ffffff"
+    },
+    "cornersDot": {
+      "type": "extra-rounded",
+      "color": "#ffffff"
+    },
+      "logo": {
+        "enabled": false,
+        "src": "",
+        "size": 0.25,
+        "margin": 6
+      }
+  }
+}

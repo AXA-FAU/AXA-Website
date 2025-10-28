@@ -1,0 +1,32 @@
+{
+  "socialMedia": {
+    "instagram": {
+      "url": "https://www.instagram.com/axa_fau/",
+      "enabled": true,
+      "icon": "media/logos/instagram.webp",
+      "alt": "Instagram"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/fauaxa/",
+      "enabled": true,
+      "icon": "media/logos/facebook.webp",
+      "alt": "Facebook"
+    },
+    "email": {
+      "url": "mailto:axa.fau@outlook.com",
+      "enabled": true,
+      "icon": "media/logos/email.webp",
+      "alt": "Email"
+    },
+    "whatsapp": {
+      "url": "https://chat.whatsapp.com/DH4zk4k3nuuJmNhoUUeUzp?mode=wwt",
+      "enabled": true,
+      "icon": "media/logos/whatsapp.png",
+      "alt": "WhatsApp"
+    }
+  },
+  "settings": {
+    "showConsoleLogs": true,
+    "openInNewTab": true
+  }
+}

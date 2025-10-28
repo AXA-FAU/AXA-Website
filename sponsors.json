@@ -1,0 +1,45 @@
+{
+  "sponsors": [
+    {
+      "filename": "exhale.png",
+      "alt": "Exhale",
+      "enabled": true
+    },
+    {
+      "filename": "fau.png",
+      "alt": "FAU",
+      "enabled": true
+    },
+    {
+      "filename": "logo.png",
+      "alt": "Logo",
+      "enabled": false
+    },
+    {
+      "filename": "nasa.webp",
+      "alt": "NASA",
+      "enabled": true
+    },
+    {
+      "filename": "nasaidkwtf.png",
+      "alt": "NASA",
+      "enabled": true
+    },
+    {
+      "filename": "Naztech.png",
+      "alt": "Naztech",
+      "enabled": true
+    },
+    {
+      "filename": "unp.png",
+      "alt": "UNP",
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "autoRefresh": true,
+    "showConsoleLogs": true,
+    "fallbackMessage": "No sponsor images found",
+    "scrollSpeed": 0.8
+  }
+}

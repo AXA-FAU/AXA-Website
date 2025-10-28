@@ -1,0 +1,72 @@
+{
+  "calendar": {
+    "title": "Upcoming Events",
+    "subtitle": "Stay updated with our latest activities and milestones",
+    "enabled": true
+  },
+  "events": [
+    {
+      "id": "test-event-1",
+      "title": "Test Event 1",
+      "date": "2025-10-21",
+      "time": "13:00",
+      "location": "Test Location",
+      "description": "This is the first test event to verify the calendar functionality",
+      "type": "meeting",
+      "status": "upcoming",
+      "enabled": true
+    },
+    {
+      "id": "test-event-2",
+      "title": "Test Event 2",
+      "date": "2025-10-21",
+      "time": "15:00",
+      "location": "Another Location",
+      "description": "This is the second test event on the same day",
+      "type": "presentation",
+      "status": "upcoming",
+      "enabled": true
+    },
+    {
+      "id": "test-event-3",
+      "title": "Test Event 3",
+      "date": "2025-10-21",
+      "time": "17:00",
+      "location": "Third Location",
+      "description": "This is the third test event for stacking demonstration",
+      "type": "testing",
+      "status": "upcoming",
+      "enabled": true
+    }
+  ],
+  "recurringEvents": [
+    {
+      "id": "weekly-meeting",
+      "title": "Weekly Team Meeting",
+      "time": "17:30",
+      "location": "Engineering West Room 101",
+      "description": "Weekly team coordination and progress review",
+      "type": "meeting",
+      "status": "upcoming",
+      "enabled": true,
+      "recurrence": {
+        "type": "weekly",
+        "dayOfWeek": 2,
+        "startDate": "2025-01-07",
+        "endDate": "2025-12-31",
+        "exclusions": [
+          "2025-12-16",
+          "2025-12-23"
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "showConsoleLogs": true,
+    "maxEventsDisplay": 5,
+    "sortBy": "date",
+    "showPastEvents": false,
+    "dateFormat": "MMM DD, YYYY",
+    "timeFormat": "12h"
+  }
+}

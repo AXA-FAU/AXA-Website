@@ -1,0 +1,42 @@
+{
+  "title": "MISSION 3",
+  "description": "Execute a test flight for FAU's first High-Altitude Balloon (HAB) autonomous recovery system. This mission focused on developing and validating a cutting-edge system for recovering payloads from high altitudes using autonomous technology. The team, comprised of AXA and the Mechanical SD-24 Team, conducted extensive preparatory work, including over 10 drone drop tests to refine the recovery mechanisms and ensure proof of system control. The flight successfully reached an impressive 105,000 ft apogee, demonstrating the HAB's performance capabilities. However, the mission encountered a challenge with premature parafoil deployment, which provided valuable data for future system improvements. The entire operation was managed within a budget of $1,100, showcasing efficient resource utilization in advanced aerospace research. This project represents FAU's continued innovation in autonomous recovery systems and high-altitude balloon technology.",
+  "team": [
+    {
+      "name": "Sky Rueff",
+      "role": "President",
+      "photo": "media/team/skyrueff.jpg"
+    },
+    {
+      "name": "Matthew Sirkin",
+      "role": "Vice President",
+      "photo": "media/team/matthewsirkin.jpg"
+    },
+    {
+      "name": "Daniel Levy",
+      "role": "Software Lead",
+      "photo": "media/team/daniellevy.jpg"
+    },
+    {
+      "name": "Kirthana Mutukuru",
+      "role": "Mechanical Lead",
+      "photo": "media/team/kirthanamutukuru.png"
+    },
+    {
+      "name": "Eyan Starkman",
+      "role": "Electrical Lead",
+      "photo": "media/team/eyanstarkman.jpg"
+    }
+  ],
+  "images": [
+    "media/placeholder.jpg",
+    "media/placeholder.jpg",
+    "media/placeholder.jpg"
+  ],
+  "sponsors": [
+    "media/logos/fau.png",
+    "media/placeholder.jpg",
+    "media/placeholder.jpg"
+  ]
+}
+
