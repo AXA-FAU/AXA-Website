@@ -2515,9 +2515,36 @@
         /* Responsive horizontal spacing adjustments */
         @media (max-width: 1024px) {
             .mission-overlay > div { margin-right: 60px; max-width: 680px; }
+            .mission-title { font-size: clamp(2.2rem, 6vw, 4.2rem); }
+            .mission-subtitle { font-size: 1.1rem; }
+        }
+        /* Fix odd scaling between ~1010px and ~1070px where text looked larger */
+        @media (min-width: 1010px) and (max-width: 1070px) {
+            .mission-title { font-size: clamp(2.0rem, 4.8vw, 3.6rem); }
+            .mission-subtitle { font-size: 1rem; }
+            .mission-overlay > div { margin-right: 70px; }
+        }
+        /* Ensure safe spacing between image and text for medium/large tablets and small desktops */
+        @media (min-width: 1080px) and (max-width: 1740px) {
+            /* widen the white wedge a bit so text has buffer from image */
+            .mission-overlay {
+                clip-path: polygon(0 0, 0 100%, 45% 100%, 52% 0);
+                padding: 70px;
+            }
+            .mission-overlay > div {
+                margin-right: 90px;
+                max-width: 760px;
+            }
+            .mission-title {
+                font-size: clamp(2.8rem, 5.2vw, 5.2rem);
+            }
+            .mission-subtitle {
+                font-size: clamp(1rem, 1.4vw, 1.3rem);
+            }
         }
         @media (max-width: 768px) {
             .mission-overlay > div { margin-right: 0; max-width: none; }
+            .mission-subtitle { font-size: var(--font-mobile-mission-subtitle); }
         }
     </style>
 </head>
