@@ -24,17 +24,17 @@
     "mission1": {
       "title": "MISSION 1",
       "subtitle": "2024 - HAB Autonomous Recovery System",
-      "backgroundImage": "media/missions/1/1-5.2.jpg"
+      "backgroundImage": "media/missions/1/fml2.jpg"
     },
     "mission2": {
       "title": "MISSION 2", 
       "subtitle": "2024 - CubeSat Communications & Ground Station",
-      "backgroundImage": "media/missions/2/2-1.2.jpg"
+      "backgroundImage": "media/missions/2/cover.jpg"
     },
     "mission3": {
       "title": "MISSION 3",
       "subtitle": "2024 - HAB Autonomous Recovery System",
-      "backgroundImage": "media/missions/3/3-1.2.jpg"
+      "backgroundImage": "media/missions/3/cover6.png"
     },
     "cta": "CLICK TO READ MORE",
     "mobileCta": "Click to learn more"

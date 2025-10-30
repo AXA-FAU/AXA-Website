@@ -10,12 +10,12 @@
     {
       "name": "Matthew Sirkin",
       "role": "Vice President",
-      "photo": "media/team/matthewsirkin.jpg"
+      "photo": "media/team/matthewsirkin2.jpg"
     },
     {
       "name": "Daniel Levy",
       "role": "Software Lead",
-      "photo": "media/team/daniellevy.jpg"
+      "photo": "media/team/daniellevy2.jpg"
     },
     {
       "name": "Kirthana Mutukuru",
@@ -29,9 +29,17 @@
     }
   ],
   "images": [
-    "media/placeholder.jpg",
-    "media/placeholder.jpg",
-    "media/placeholder.jpg"
+    "media/missions/2/IMG_9003.jpg",
+    "media/missions/2/IMG_9041.jpg",
+    "media/missions/2/IMG_9080.jpg",
+    "media/missions/2/IMG_9029.jpg",
+    "media/missions/2/IMG_9017.jpg",
+    "media/missions/2/IMG_9045.jpg",
+    "media/missions/2/IMG_9043.jpg",
+    "media/missions/2/20240405_234856000_iOS.jpg",
+    "media/missions/2/20240405_234500000_iOS.jpg",
+    "media/missions/2/cover.jpg",
+    "media/missions/2/20240405_235441000_iOS.jpg"
   ],
   "sponsors": [
     "media/logos/fau.png",
